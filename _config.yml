@@ -1,0 +1,185 @@
+# Where things are
+source:       .
+destination:  ./_site
+plugins:      ./_plugins
+layouts:      ./_layouts
+paginate:     8
+
+# Handling Reading
+safe:         false
+include:      [".htaccess"]
+exclude:      []
+keep_files:   [".git", ".svn"]
+encoding:     "utf-8"
+markdown_ext: "markdown,mkdown,mkdn,mkd,md"
+textile_ext:  "textile"
+
+# Filtering Content
+show_drafts:  null
+limit_posts:  0
+future:       true
+unpublished:  false
+
+# Conversion
+markdown:     kramdown
+highlighter:  pygments
+lsi:          false
+excerpt_separator: "\n\n"
+
+# Serving
+detach:       false
+port:         4000
+host:         127.0.0.1
+baseurl:      "/" # does not include hostname
+
+# Outputting
+permalink:     date
+paginate_path: /page:num
+timezone:      null
+
+
+#Site config
+title: Aragron's blog
+description: Recodrding life and waiting love for SuperM!.
+keywords: Jekyll Theme
+# url: http://Aragronsam.github.io
+url: http://www.aragron.com
+feed: /atom.xml
+favicon: https://raw.githubusercontent.com/michaelliao/awesome-python3-webapp/day-03/www/favicon.ico
+
+#Nav config
+nav:
+  - text: 首页
+    url: /index.html
+  - text: 幸福源动力 
+    url: /categories.html
+  - text: 编程
+    url: /archives.html
+  - text: 链接
+    url: /links.html  
+  - text: 关于我
+    url: /contact.html
+
+#Author config
+author:
+    name: 张诚
+    email: aragronvip@163.com
+    imageLink: https://cloud.githubusercontent.com/assets/10320179/22134218/65521f48-df00-11e6-8b4c-6663296fae51.jpg
+    simpleIntro: 我是「小螃蟹」，一只会思考的螃蟹座。
+    detailIntro:
+      <p>每一颗大树，都曾只是一粒种子。</p>
+      <p>Motto：Clam down，there's always we out and no reason not follow your heart!</p>
+      <p>Address:黄冈罗田；Graduate:湖北师范大学2015</p>
+      <p>QQ:342279465；WeChat ID:qishi007123</p>
+      <p>Weibo ID:Sambrave</p>
+
+#Follow me, you can choose your icon by http://fortawesome.github.io/Font-Awesome/icons/#brand
+follow:
+  - class: icon-rss
+    url: /atom.xml
+  - class: icon-weibo
+    url: http://weibo.com/Sambrave  
+  - class: icon-github-alt
+    url: http://github.com/Aragronsam
+  - class: icon-coffee
+    url: https://getpocket.com/a/queue/
+  - class: icon-comments
+    url: https://wx.qq.com/
+
+#Links
+customLinks:
+  - item:    
+    - text: 简书
+      url: http://www.jianshu.com/   
+    - text: 知乎
+      url: http://www.zhihu.com/       
+    - text: 百度
+      url: http://www.baidu.com/    
+    - text: 少数派
+      url: http://sspai.com/
+    - text: 左果峰
+      url: https://github.com/konieshadow          
+    - text: 阮一峰
+      url: http://www.ruanyifeng.com/
+    - text: 廖雪峰
+      url: http://www.liaoxuefeng.com/
+    - text: 阳志平
+      url: http://www.yangzhiping.com/      
+    - text: 慕课网
+      url: http://www.imooc.com/
+    - text: 汇智网
+      url: http://www.hubwiz.com/
+    - text: 阿里云
+      url: https://home.console.aliyun.com/#/
+    - text: 极客学院
+      url: http://wiki.jikexueyuan.com/project/intellij-idea-tutorial/keymap-mac-introduce.html
+    - text: 博客园
+      url: http://www.cnblogs.com/
+    - text: 供零在线
+      url: http://glzxsit.yonghui.cn:8887/newvssportal/
+    - text: 永辉oa
+      url: http://oa.yonghui.cn/oaapp/sys/portal/page.jsp?pageId=1532e63e52af0823316599c4a58838a2
+    - text: 永辉nexus
+      url: http://10.0.31.189:8081/nexus/#welcome
+    - text: 便签
+      url: https://cloud.smartisan.com/#/notes
+    - text: 手册网
+      url: http://www.shouce.ren/api/view/a/6409
+    - text: 永辉_email
+      url: http://mail.yonghui.cn/coremail/XT3/index.jsp?sid=BAZNEayTlgNItaCSFoTTcrhoOfjKtXha#/md=folder&_suid=121
+    - text: 辉_Git_仓库
+      url: http://10.0.71.125/yhb2b/yh-vender-report
+    message: Friends
+  - item:
+    - text: Google
+      url: https://www.google.com
+    - text: Mashibing
+      url: http://mashibing.com/wiki/%E9%A6%96%E9%A1%B5
+    - text: Zealer
+      url: http://www.zealer.com
+    - text: W3school
+      url: http://www.w3school.com.cn/  
+    - text: Segmentfault
+      url: http://segmentfault.com/
+    - text: Stackoverflow
+      url: http://stackoverflow.com/  
+    - text: Stormzhang
+      url: http://chuansong.me/n/404317047764
+    - text: V2ex
+      url: https://www.v2ex.com/    
+    - text: Wikipedia
+      url: https://en.wikipedia.org/wiki/EDIFACT
+    - text: Http Requester
+      url: https://packagecontrol.io/packages/Http%20Requester     
+    - text: Scotch
+      url: https://scotch.io/
+    - text: Processon
+      url: https://www.processon.com/diagrams/new
+    - text: Codecademy
+      url: https://www.codecademy.com/en/courses/learn-sql/lessons/manipulation/exercises/relational-databases
+    - text: Lifesinger      
+      url: https://github.com/lifesinger/blog/issues
+    - text: Jsfiddle      
+      url: http://jsfiddle.net/BXZk2/
+    - text: JQuery      
+      url: https://oscarotero.com/jquery/
+    - text: Shimo
+      url: https://shimo.im/desktop
+    - text: Tower      
+      url: https://www.git-tower.com/blog/
+    message: 其他相关链接
+
+#googleAnaly, your id link UA-12345678-X
+#googleAnaly:
+#  config: false
+#  id: UA-40169250-1
+
+#comment config
+disqus:
+  config: false
+  id: aragron
+
+duoshuo:
+  config: true
+  id: aragron
+
